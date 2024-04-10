@@ -1,0 +1,30 @@
+/* Background Image */
+
+body {
+    background-image: url('../HTML/images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: 'Algerian';
+    color: brown;
+}
+
+/* Scrolling Effect*/
+.scrolling-container {
+    overflow: hidden; /* Hide content that goes beyond container */
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.scrolling-heading {
+    animation: scrollLeft 20s linear infinite; /* Adjust speed and duration as needed */
+}
+
+@keyframes scrollLeft {
+    0% {
+        transform: translateX(100%); /* Start off-screen right */
+    }
+    100% {
+        transform: translateX(-100%); /* Move off-screen left */
+    }
+}
+
