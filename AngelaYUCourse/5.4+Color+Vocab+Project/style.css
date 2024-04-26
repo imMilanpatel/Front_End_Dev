@@ -1,0 +1,28 @@
+/* Todo 2*/
+#red{
+    color: red;    
+}
+#blue{
+    color: blue;
+}
+#orange{
+    color:orange;
+}
+#green{
+    color: green;
+}
+#yellow{
+    color: yellow;
+}
+
+/* Todo 3*/
+.color-title{
+    font-weight: normal;
+}
+
+/* Todo 4*/
+img{
+    height:200px;
+    width:200px;
+    
+}
