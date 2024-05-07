@@ -10,3 +10,17 @@ p {
   margin: 0;
   padding: 0;
 }
+
+.inner-box {
+  background-color: red;
+}
+
+.white-text {
+  color: white;
+}
+
+/* OUTER BOX CAN BE USED */
+body {
+  border: 10px solid rebeccapurple;
+}
+
